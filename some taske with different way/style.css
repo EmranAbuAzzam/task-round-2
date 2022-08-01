@@ -1,0 +1,51 @@
+.container{
+    background-color: #a0d0ea;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+   
+  grid-template-rows: repeat(5,1fr);
+    width:35% ;
+    height: 90vh;
+   
+    font-size: xx-large;
+    padding: 20px;
+    margin: auto;
+
+
+}
+
+#result {
+    background-color: #f1fbeb;
+  grid-column: 1/5;
+    height: 100px;
+
+
+  
+
+}
+.number {
+    background-color: #efefef;
+    height: 100px;
+    
+
+   
+}
+
+.signals{
+    background-color: #efff93;
+    height: 100px;
+   
+
+}
+#clear{ background-color: #fd9fa9;
+    height: 100px;
+   
+}
+.container > div  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px #7f8182;
+}
